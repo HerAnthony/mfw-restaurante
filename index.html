@@ -11,6 +11,74 @@
 	</head>
 
 	<body>
+		<!-- Nav-Bar -->
+		<!-- nav.navbar.navbar-default>(.container-fluid>(.navbar-header>(button[type="button"].navbar-toggle.collapsed[data-toggle="collapse"][data-target="#mainNavbar"]>(span.icon-bar)*4)+(a.navbar-brand>img[src=img/name-01.png][alt="logo"]))+(.collapse.navbar-collapse#mainNavbar>(ul.nav.navbar-nav.navbar-right>(li>a)*5))) -->
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#mainNavbar">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button><a href="" class="navbar-brand"><img src="img/name-01.png" alt="logo"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="mainNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="#our_story">Our Story</a></li>
+						<li><a href="#review">Review</a></li>
+						<li><a href="#menue">Menu</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Nav-Bar -->
+
+		<!-- Carousel -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active main_image1">
+					<img src="img/logo-01.png" alt="carousel logo">
+					<div class="img-responsive center-block main_logo">
+						...
+					</div>
+				</div>
+				<div class="item main_image2">
+					<div class="carousel-caption">
+						<!-- h1+p+a -->
+						<h1>Eat Local</h1>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque in amet optio cum saepe
+							quis.</p>
+						<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
+					</div>
+				</div>
+
+				<!-- .item.main_img3>.carousel-caption>h1{From Farm To Table}+p{lorem1}+a[role="button"]{Learn More}.btn -->
+
+			</div>
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- Carousel -->
 
 		<!-- javascript	 -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
