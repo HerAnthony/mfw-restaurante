@@ -11,13 +11,13 @@
     background-size: cover;
     background-position: center;
 }
-.main_image1 {
+.main_img1 {
     background-image: url('../img/wood-2.jpg')
 }
-.main_image2 {
+.main_img2 {
     background-image: url('../img/restaurant-2.jpg')
 }
-.main_image3 {
+.main_img3 {
     background-image: url('../img/farm-2.jpg')
 }
 .main_logo {
