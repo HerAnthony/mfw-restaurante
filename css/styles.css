@@ -1,8 +1,8 @@
 .carousel {
-    margin-bottom: 60px;    
+    margin-bottom: 60px;
 }
 .carousel-caption {
-    z-index: 10;
+    z-index: -10;
     padding-bottom: 60px;
 }
 .carousel-inner .item {
@@ -22,4 +22,18 @@
 }
 .main_logo {
     max-height: 300px;
+}
+.navbar {
+    position:absolute;
+    width: 100%;
+    z-index: 10;
+    max-width: 100%;
+    background: transparent;
+    border: none;
+}
+#mainNavbar ul li a{
+    color: #ffffff;
+}
+#mainNavbar ul li a:hover {
+    color: #00ff00;
 }
