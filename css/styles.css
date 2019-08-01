@@ -149,3 +149,9 @@ nav.navbar {
     text-shadow: 1px 1px 5px #0a0a0a0a;
 }
 /* Review */
+/* Menu */
+.image-thumbnail {
+    width: 150px;
+    height: 150px;
+}
+/* Menu */
